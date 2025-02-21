@@ -1,7 +1,12 @@
 # RAML to object
 
-[![NPM version](http://img.shields.io/npm/v/raml2obj.svg)](https://www.npmjs.org/package/raml2obj)
-[![Prettier](https://img.shields.io/badge/code%20style-prettier-blue.svg?style=flat)](https://github.com/prettier/prettier)
+## Fork Info
+**NOTE: This is a forked version of the original repository [raml2html/raml2obj](https://github.com/raml2html/raml2obj).**
+ 
+The updates in this fork include:
+- more frequent updates of package dependencies.
+- migration to the `webapi-parser` package from the now deprecated `raml-js-parser-2`.
+
 
 A thin wrapper around [raml-js-parser-2](https://github.com/raml-org/raml-js-parser-2), adding extra properties to the resulting
 object for use in [raml2html](https://www.npmjs.org/package/raml2html) and [raml2md](https://www.npmjs.org/package/raml2md).

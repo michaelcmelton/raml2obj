@@ -1,26 +1,25 @@
 {
-  "name": "raml2obj",
+  "name": "@michaelcmelton/raml2obj",
   "description": "RAML to object",
-  "version": "6.8.1",
+  "version": "7.0.0",
   "author": {
-    "name": "Kevin Renskers",
-    "email": "kevin@loopwerk.io"
+    "name": "Michael Melton",
+    "email": "michaelcmelton93@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/raml2html/raml2obj/issues"
+    "url": "https://github.com/michaelcmelton/raml2obj/issues"
   },
   "dependencies": {
-    "datatype-expansion": "^0.4.1",
-    "raml-1-parser": "^1.1.67"
+    "webapi-parser": "^0.5.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "glob": "^7.1.6",
-    "mocha": "^6.2.3",
-    "prettier": "^1.19.1"
+    "eslint": "9.20.1",
+    "eslint-plugin-prettier": "5.2.3",
+    "glob": "11.0.1",
+    "mocha": "11.1.0",
+    "prettier": "3.5.1"
   },
-  "homepage": "https://github.com/raml2html/raml2obj",
+  "homepage": "https://github.com/michaelcmelton/raml2obj",
   "keywords": [
     "RAML"
   ],
@@ -28,7 +27,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/raml2html/raml2obj.git"
+    "url": "git://github.com/michaelcmelton/raml2obj.git"
   },
   "preferGlobal": false,
   "scripts": {
@@ -42,6 +41,6 @@
     "consistency-helpers.js"
   ],
   "engines": {
-    "node": ">=4"
+    "node": ">=20"
   }
 }

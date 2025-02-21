@@ -1,6 +1,5 @@
 # Contributing
-raml2obj is an open source project and your contribution is very much appreciated. Since raml2obj is
-maintained by a very limited number of people, we ask you to please keep these rules in mind.
+raml2obj is an open source project and your contribution is very much appreciated. Since raml2obj is maintained by a very limited number of people, we ask you to please keep these rules in mind.
 
 ## Questions
 If you have a question, please use [StackOverflow](http://stackoverflow.com/).
@@ -16,5 +15,7 @@ It would be even better if you could include the fix as well :)
 4. Send a pull request (with the develop branch as the target).
 
 ## Thanks
-A big thank you goes out to everyone who helped with the project, the [contributors](https://github.com/raml2html/raml2obj/graphs/contributors)
+A very large thank you to the previous [contributors](https://github.com/michaelcmelton/raml2obj/graphs/contributors) of this project, prior to the fork. 
+
+A big thank you goes out to everyone who helped with the project, the [contributors](https://github.com/michaelcmelton/raml2obj/graphs/contributors)
 and everyone who took the time to report issues and give feedback.
