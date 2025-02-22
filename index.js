@@ -240,7 +240,7 @@ function _sourceToRamlObj(source, options = {}) {
   });
 }
 
-module.exports.parse = function(source, options) {
+module.exports.parse = function (source, options) {
   return _sourceToRamlObj(source, options).then(ramlObj =>
     _enhanceRamlObj(ramlObj, options)
   );

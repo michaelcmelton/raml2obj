@@ -6,7 +6,7 @@ const raml2obj = require('..');
 const assert = require('assert');
 
 describe('raml2obj', () => {
-  describe('worldmusic.raml', function() {
+  describe('worldmusic.raml', () => {
     this.timeout(10000);
 
     let obj;
