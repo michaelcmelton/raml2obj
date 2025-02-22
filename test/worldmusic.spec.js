@@ -7,8 +7,6 @@ const assert = require('assert');
 
 describe('raml2obj', () => {
   describe('worldmusic.raml', () => {
-    this.timeout(10000);
-
     let obj;
 
     before(done => {
