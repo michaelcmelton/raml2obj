@@ -14,11 +14,11 @@
     "raml-1-parser": "^1.1.67"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "glob": "^7.1.6",
-    "mocha": "^6.2.3",
-    "prettier": "^1.19.1"
+    "eslint": "^9.21.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "glob": "^11.0.1",
+    "mocha": "^11.1.0",
+    "prettier": "^3.5.1"
   },
   "homepage": "https://github.com/michaelcmelton/raml2obj",
   "keywords": [
@@ -34,7 +34,10 @@
   "scripts": {
     "json": "node test/output-json.js",
     "lint": "eslint . --fix",
-    "test": "mocha 'test/*.spec.js' --reporter progress"
+    "test": "mocha"
+  },
+  "mocha": {
+    "spec": "test/*.spec.js"
   },
   "files": [
     "index.js",
