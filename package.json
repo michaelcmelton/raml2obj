@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "datatype-expansion": "^0.4.1",
+    "nyc": "^17.1.0",
     "raml-1-parser": "^1.1.67",
     "webapi-parser": "^0.5.0"
   },
@@ -38,7 +39,8 @@
     "test": "mocha"
   },
   "mocha": {
-    "spec": "test/*.spec.js"
+    "spec": "test/*.spec.js",
+    "reporter": "progress"
   },
   "files": [
     "index.js",
